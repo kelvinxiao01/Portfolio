@@ -16,7 +16,7 @@ contactForm.addEventListener("submit", (e) =>{
   }
 
   let xhr = new XMLHttpRequest();
-  xhr.open("POST", "/");
+  xhr.open("POST", "https://kelvinxiao01.github.io/Portfolio/contactform.html?");
   xhr.setRequestHeader("content-type", "application/json");
   xhr.onload = function() {
     console.log(xhr.responseText);
