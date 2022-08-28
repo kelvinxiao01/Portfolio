@@ -1,0 +1,112 @@
+a {
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+p {
+  font-family: courier prime;
+  font-weight: bold;
+}
+li {
+  font-family: courier prime;
+  font-weight: bold;
+}
+
+i {
+  color: white;
+}
+
+nav a {
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: grey;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover{
+  color: grey;
+}
+
+.bgimage {
+  height: 100vh;
+  /* background: url("images/IMG_1869.jpg"); */
+  background-size: 100%;
+  position: relative;
+}
+
+.hero-title {
+  font-size: 4.5rem;
+}
+
+.hero-desc {
+  font-size: 2rem;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.aboutimg {
+  width: 100%;
+}
+
+.navbarScroll.navbarDark {
+  background-color: black;
+}
+
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-instagram:hover,.fa-square-github:hover,.fa-linkedin:hover, .fa-person-chalkboard:hover {
+    color: grey;
+}
+.fab {
+    color: #000000;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+#vanta {
+  z-index: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#about {
+  /* margin-top: 0; */
+  padding-top: 1rem;
+}
+
+#footer {
+    background-color: black;
+    text-align: center;
+}
