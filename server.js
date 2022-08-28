@@ -10,7 +10,7 @@ app.use(express.static("public"));
 app.use(express.json())
 
 app.get("/", (req, res) =>{
-  res.sendFile(__dirname + "/public/contactform.html")
+  res.sendFile(__dirname + "contactform.html")
 })
 
 app.post("/", (req, res)=> {
