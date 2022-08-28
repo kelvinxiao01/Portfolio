@@ -6,7 +6,9 @@ const nodemailer = require("nodemailer");
 const PORT = process.env.PORT || 4000;
 
 //Middleware
-app.use(express.static("public"));
+app.use(express.static("contactform.html"));
+app.use(express.static("form.css"));
+app.use(express.static("app.js"));
 app.use(express.json())
 
 app.get("/", (req, res) =>{
@@ -43,5 +45,5 @@ app.post("/", (req, res)=> {
 })
 
 app.listen(PORT, ()=>{
-  console.log("server running on port 4000");
+  console.log("server running");
 })
