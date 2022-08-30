@@ -9,6 +9,38 @@ body {
   background-color: #f4f4f4;
 }
 
+h1 {
+  font-family: Montserrat;
+  font-weight: bold;
+  text-align: center;
+}
+
+input, textarea {
+  width: 100%;
+  margin-top: 2rem;
+  border: none;
+  border-bottom: 1px solid black;
+  font-family: courier prime;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input, textarea:focus {
+  outline: none;
+}
+
+button {
+  border: 1px solid black;
+  padding: 1rem;
+  text-align: center;
+  background-color: #ffffff;
+  cursor: pointer;
+  width: 100%;
+  font-family: courier prime;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 .form-container {
   position: relative;
   left: 20%;
@@ -35,11 +67,4 @@ body {
 
 .submit:hover {
   opacity: 0.6;
-}
-
-input, textarea {
-  width: 100%;
-  margin-top: 2rem;
-  border: none;
-  border-bottom: 1px solid black;
 }
